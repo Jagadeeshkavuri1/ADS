@@ -4,7 +4,7 @@
         int pi=a[low]; 
         int i = low+1; 
         int j=high; 
-        if(i<j){ 
+        while(i<j){ 
             while(a[i]<=pi && i<j){  
                 i++;
             } 
